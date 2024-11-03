@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Cart</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+    <main>
+        <section class="cart-items">
+            <h2>Items in Cart</h2>
+            <ul id="cartItems">
+                <!-- Cart items will be injected here by JavaScript -->
+            </ul>
+            <p>Total: $<span id="cartTotal">0</span></p>
+            <button onclick="checkout()">Checkout</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
